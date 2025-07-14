@@ -1,0 +1,24 @@
+# SPDX-License-Identifier: GPL-2.0
+
+menu "Licay lib module"
+
+config LICAY_LIB_CRYPTO
+	tristate "Licay lib crypto module"
+	default n
+	help
+	  This is the Licay lib crypto module which provides
+	  compression algorithms for use in the kernel.
+
+config LZ4K_COMPRESS
+	tristate
+
+config LZ4K_DECOMPRESS
+	tristate
+
+config LZ4KD_COMPRESS
+	tristate
+
+config LZ4KD_DECOMPRESS
+ 	tristate
+
+endmenu
